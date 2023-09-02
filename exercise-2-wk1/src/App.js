@@ -3,6 +3,7 @@ import './App.css';
 import { Header } from './Header';
 import { ColorList } from './ColorList';
 import { ContactItem } from './ContactItem';
+import { ContactList } from './ContactList';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <ColorList/>
       <ContactItem/>
+      <ContactList/>
     </div>
 
   );
