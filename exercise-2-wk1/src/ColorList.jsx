@@ -13,8 +13,8 @@ export const ColorList = () => {
     //<div>ColorList</div>
     <> 
     <ul>
-       {colorlist.map((x)=>{
-        return <li> {x} </li>
+       {colorlist.map((x, index)=>{
+        return <li key = {index}> {x} </li>
        }
        )}
     </ul>

@@ -8,11 +8,15 @@ For this the “ContactList” component must import “ContactItem” component
 Render the “ContactList” component in the App.js. 
 The rendered “ContactItem” components can be identical at this moment.*/
 
-export const ContactList = () => {
+export const ContactList = ({personcontact}) => {
   return (
     //<div>ContactList</div>
     <div>
-        <ContactItem/> 
+        {personcontact.map((person, index) => {
+          return (
+            <ContactItem key={index} person = {person} /> 
+          )
+        })}
     </div>
   )
 }
