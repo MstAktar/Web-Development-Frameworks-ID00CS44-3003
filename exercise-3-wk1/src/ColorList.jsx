@@ -5,6 +5,7 @@ import React from 'react'
 // the ColorList component as props. Create three props named color1, color2, color3. 
 // Import the component and render it in the main App component.
 
+
 const ColorList = ({color}) => {
   return (
     //<div>ColorList</div>
