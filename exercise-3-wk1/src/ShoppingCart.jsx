@@ -6,10 +6,15 @@ import Product from './Product'
 function ShoppingCart({products}) {
   return (
     //<div>ShoppingCart</div>
-    <div>
-   {products.map((x,i)=> {
-    return < Product product = {x} />
-}
+    <div style={{width: "100%"}}>
+    Shopping Cart
+    {products.map((item,i)=> {
+    return (
+    < Product  
+            productName={item.name}
+            quantity={item.quantityInCart}
+            totalPrice={item.totalPrice}/>
+    )}
    
    )}
     </div>

@@ -10,16 +10,16 @@ import ShoppingCart from './ShoppingCart';
 const colorList = ["red", "pink", "blue"];
 
 const contactList = [
-  {name: "Airen", address: "Finland"},
-  {name: "Rachna", address: "Pakistan"},
-  {name: "Minhaz", address: "Bangladesh"},
-  {name: "Sharif", address: "Finland"}
+  {id: 1, name: "Airen", address: "Finland"},
+  {id: 2,name: "Rachna", address: "Pakistan"},
+  {id: 3,name: "Minhaz", address: "Bangladesh"},
+  {id: 4,name: "Sharif", address: "Finland"}
 ]
 
 const productList = [
-  {name: "Mango", quantity: 2, totalprice: 100},
-  {name: "Orange", quantity: 4, totalprice: 200},
-  {name: "Apple", quantity: 6, totalprice:300}
+  {name: "Mango", quantityInCart: 2, totalPrice: 1},
+  {name: "Orange", quantityInCart: 4, totalPrice: 2},
+  {name: "Apple", quantityInCart: 6, totalPrice:3}
 ]
 
 function App() {
